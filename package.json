@@ -1,0 +1,21 @@
+{
+  "name": "projeto7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sorteio-instagram.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "express": "^4.17.3",
+    "http": "^0.0.1-security",
+    "nodejs": "^0.0.0",
+    "puppeteer": "^13.5.2",
+    "puppeteer-chromium-resolver": "^9.0.0"
+  }
+}
