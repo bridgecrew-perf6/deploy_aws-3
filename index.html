@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <title>Pega Comentario da Postagem do Sorteio</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h2 id="texto-topo">Pega comentarios postagem Instagram</h2>
+        </div>
+    </header>
+    <main>
+       
+            <div>
+                <p id="texto-descricao">No campo abaixo insira a o link da postagem e click em gerar arquivo. O formato gerado será .xlsx. 
+                    OBS: o resultado trás apenas os comentarios da postagem. Comentarios de comentarios serão desconsiderados.
+                </p>
+            </div>
+     
+   
+            <form action="">
+                <div id="box-input">
+                    <legend class="legenda"> Insira o link da postagem</legend>
+                    <div id="itens-grid">
+                        <input type="text" placeholder="Insira aqui o link da postagem" class="campo">
+                        <span class="adiciona">+</span>
+                    </div>
+                </div>
+                <button type="submit" class="btnPrincipal">Gerar Arquivo</button>
+            </form>
+    </main>
+    <footer></footer>
+    <script type="module" src="sorteio-instagram.js"></script>
+</body>
+</html>
