@@ -1,11 +1,11 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,15 @@
     "nodejs": "^0.0.0",
     "puppeteer": "^13.5.2",
     "puppeteer-chromium-resolver": "^9.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brutar/deploy_aws.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brutar/deploy_aws/issues"
+  },
+  "homepage": "https://github.com/brutar/deploy_aws#readme",
+  "description": ""
 }

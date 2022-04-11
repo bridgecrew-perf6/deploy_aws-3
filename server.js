@@ -6,17 +6,8 @@ const path = require('path');
 const app = express();
 
 app.get('/',(request,response)=>{
-    if(request.url === '/'){
-        fs.readFile(
-            path.join(__dirname,'/','index.html'),
-            (err,content) => {
-                if(err) throw err
-                response.end(content)
-            }
-        )
-    }
-    return response.send();
-})
+    return response.send('Funcinoou');
+);
 app.post('/teste',(request,response) =>{
     const {name,date} = request.body;
     return response.json({name, date});
