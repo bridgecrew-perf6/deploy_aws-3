@@ -5,9 +5,9 @@ var fs = require('fs');
 /*const path = require('path');*/
 const app = express();
 
-app.get('/',(request,response)=>{
+app.get('/app/',(request,response)=>{
     return response.send('Funcinou');
-);
+});
 app.post('/teste',(request,response) =>{
     const {name,date} = request.body;
     return response.json({name, date});
