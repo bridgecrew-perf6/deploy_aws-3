@@ -5,7 +5,7 @@ var fs = require('fs');
 /* const path = require('path'); */
 
 var server = http.createServer(function(request, response){
-    fs.readFile(__dirname, 'index.html', function(err, html){
+    fs.readFile(__dirname + 'index.html', function(err, html){
         response.writeHeader(200,{'Content-Type':'text/html'});
         response.write(html);
         response.end();
