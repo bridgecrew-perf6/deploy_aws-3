@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/',(request,response)=>{
-    return response.send('<h1>Servidor Up!</h1>');
+    return response.send('index.html');
 })
 app.post('/teste',(request,response) =>{
     const {name,date} = request.body;
